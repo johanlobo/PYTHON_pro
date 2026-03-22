@@ -12,3 +12,6 @@ print('johan\t'*3)
 #34=n     #error!
 #print(n)
 #print(zp) error!
+import math
+z=math.sqrt(4)
+print(z)
