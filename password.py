@@ -1,8 +1,11 @@
 z=input('enter the password:')
 a=0
+cc=''#emty string
 while True:
     c=input('repeat password:')
     a+=1
+      
+    cc+=c+', '     #OR use cc+=f'{c}, '   #this is called f string, it is used to format the string and it is more efficient than concatenation
     if a==3:
         print('too many attempts, account locked')
         break
@@ -11,13 +14,14 @@ while True:
         break
     else:
         print('passwords do not match, try again')
+print ("passwords entered:",cc)
     #here if u enter loy as password and for RP if u give space and write loy it wont match cuz it will take space as a string character too
     
 
     #attempts = 0
 
 #while True:
-   # code = input("Please type in your PIN: ")
+   # code = input("Please type in your PIN: ")2
    # attempts += 1
 
    # if attempts == 3:
