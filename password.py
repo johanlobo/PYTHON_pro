@@ -1,6 +1,11 @@
 z=input('enter the password:')
+a=0
 while True:
     c=input('repeat password:')
+    a+=1
+    if a==3:
+        print('too many attempts, account locked')
+        break
     if c==z:
         print('user account created')
         break
