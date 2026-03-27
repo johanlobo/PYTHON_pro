@@ -6,3 +6,5 @@ if c== "add":
 elif c== 'sub':
     print(a-b)
 print(len(c))
+
+print('67'*len(c))

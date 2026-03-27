@@ -14,7 +14,7 @@ else:
 
 
     #u can use 2 loops also and make it nested. but will have to use 2 break stmts
-    #note that y=+1 means you are assigning y as +1 and definitely not incrementing. careful!
+    #note that y=+1 means you are assigning y as +1 and definitely not incrementing.
 
 
         
