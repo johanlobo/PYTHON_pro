@@ -4,3 +4,4 @@ while True:
         break
     print(z)
     z=z[2:]
+    
