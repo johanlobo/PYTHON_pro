@@ -26,5 +26,6 @@ gridnew=sud(sudoku,5,7,9)
 
 for i in gridnew:
     print(i)
-
-    
+print                      ()
+for r in sudoku:
+    print(r)
