@@ -11,7 +11,12 @@ def sm(u):
 
 sm(u)
 print(u)
+c=u
+c.append(100)
+print(c)
+print(u)
 
+#see the output and understand the game of references
 
 
 #to double the elements of the list and print the new list without changing the original list
