@@ -14,6 +14,8 @@ while True:
         list.pop()
     elif z=='x':
         break
+
+
  
         
 
