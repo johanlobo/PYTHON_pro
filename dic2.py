@@ -18,3 +18,12 @@ for k,v in groups.items():
     print(f'contents for {k}')
     for i in v:
         print(i)
+print()
+
+
+staff = {"Alan": "lecturer", "Emily": "professor", "David": "lecturer"}
+deleted = staff.pop("lobo", None)
+if deleted == None:
+  print("This person is not a staff member")
+else:
+  print(deleted, "deleted")
