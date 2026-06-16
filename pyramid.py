@@ -4,3 +4,6 @@ while n>0:
     print(" "*n+r)
     r+='**'
     n-=1
+
+
+#look at ' '*n first
