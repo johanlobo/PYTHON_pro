@@ -37,5 +37,7 @@ class persoon:
 loy=persoon('loy',2,6,2007,2536)
 
 print(loy)
+print(loy.date)
+print(loy.points)
 
 #using conditions in the constructor to check if input data is correct using different methods.
