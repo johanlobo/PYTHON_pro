@@ -31,8 +31,10 @@ class mov:
 
 def min(num: float, series: list):
     result = []
-    for i in series:
-        if i.avg >= num:
+    for i in series:              #printing only i will trigger __str__method in the for loop down there so specify properly
+                                  # in the object which data u want to store in list or show, otherwise
+                                  #the str of the whole object will be triggered and printed and output will look messy
+        if i.avg>=num:
             result.append(i.name)
     return result
 
