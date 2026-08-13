@@ -9,3 +9,4 @@ for i in infile.readlines():
 
 infile.close()
 outfile.close()
+print('hi')
