@@ -8,7 +8,7 @@ def tria(pattern:str,rows:int):
         print()
         i+=1
 
-tria('@',5)
+tria('%',5)
 
 #recognize pattern
 
